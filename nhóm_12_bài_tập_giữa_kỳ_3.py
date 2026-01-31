@@ -75,7 +75,6 @@ print("✅ Đã xuất dữ liệu sang Parquet")
 import vaex
 
 dfv = vaex.open("dtb_data.parquet")
-dfv
 
 """Phân tích mức độ tai nạn - số lượng tai nạn theo mức độ nghiêm trọng"""
 
