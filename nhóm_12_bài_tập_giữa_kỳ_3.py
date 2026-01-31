@@ -72,7 +72,6 @@ df["Zipcode"] = df["Zipcode"].astype(str)
 df.to_parquet("dtb_data.parquet")
 print("✅ Đã xuất dữ liệu sang Parquet")
 
-pip install vaex-core --no-build-isolation
 
 import vaex
 
