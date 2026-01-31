@@ -47,8 +47,7 @@ import pandas as pd
 # Convert the list of documents to a Pandas DataFrame
 df_documents = pd.DataFrame(documents)
 
-# Display the DataFrame
-display(df_documents)
+
 
 """**CÂU 2. VAEX XÂY DỰNG ỨNG DỤNG PHÂN TÍCH DATASET**"""
 
