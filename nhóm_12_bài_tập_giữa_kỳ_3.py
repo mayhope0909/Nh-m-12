@@ -92,7 +92,7 @@ accidents_per_year
 """ Phân tích ảnh hưởng ngày / đêm"""
 
 day_night_stats = dfv.groupby("Sunrise_Sunset", agg=vaex.agg.count())
-day_night_stats
+
 
 """Phân tích khoảng cách ảnh hưởng của tai nạn"""
 
